@@ -22,7 +22,7 @@ import {
 } from "@/components/ui/navigation-menu";
 
 const header = () => {
-	const pathname = usePathname();
+	const pathname = usePathname;
 
 	return (
 		<div className="lg:container lg:flex lg:justify-between lg:items-center">
