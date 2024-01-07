@@ -35,6 +35,7 @@ const Gallery = ({ title, titleStyle, bgColor, data }) => {
 										height={100}
 										className="w-full h-auto flex"
 										unoptimized
+										priority
 									/>
 								</div>
 							);

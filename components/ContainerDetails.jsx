@@ -14,6 +14,8 @@ const ContainerDetails = ({ title, description }) => {
 						src={c1}
 						alt="container"
 						className="w-full -mt-14 md:-mt-6"
+						// loading="lazy"
+						priority
 						unoptimized
 					/>
 				</div>

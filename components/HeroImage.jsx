@@ -11,6 +11,7 @@ const HeroImage = () => {
 				alt="Hero Container"
 				className="w-[100%] md:hidden"
 				unoptimized
+				priority
 			/>
 			<Image
 				height={100}
@@ -19,6 +20,7 @@ const HeroImage = () => {
 				alt="Hero Container"
 				className="w-full hidden md:block"
 				unoptimized
+				priority
 			/>
 		</div>
 	);

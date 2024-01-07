@@ -34,6 +34,7 @@ const header = () => {
 					src={Logo}
 					className="w-[180px]"
 					unoptimized
+					priority
 				/>
 			</Link>
 			<div>

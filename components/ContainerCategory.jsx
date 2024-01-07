@@ -63,6 +63,8 @@ const ContainerCategory = () => {
 											src={item.imgSrc}
 											alt="container"
 											className="w-full -mt-16"
+											// loading="lazy"
+											priority
 											unoptimized
 										/>
 									</div>
