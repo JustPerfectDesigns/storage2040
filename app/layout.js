@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
 				<div className="hidden lg:flex py-6 bg-white">
 					<Header />
 				</div>
-				<div className="lg:hidden py-6 bg-white">
+				<div className="lg:hidden py-4 bg-white">
 					<MobileHeader />
 				</div>
 				<div className="mb-20 lg:mb-28">{children}</div>
