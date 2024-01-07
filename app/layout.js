@@ -13,10 +13,10 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body className={`${merriweather.variable} ${montserrat.variable}`}>
-				<div className="hidden lg:flex py-8 bg-white">
+				<div className="hidden lg:flex py-6 bg-white">
 					<Header />
 				</div>
-				<div className="lg:hidden py-8 bg-white">
+				<div className="lg:hidden py-6 bg-white">
 					<MobileHeader />
 				</div>
 				<div className="mb-20 lg:mb-28">{children}</div>
