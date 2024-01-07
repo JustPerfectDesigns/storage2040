@@ -127,7 +127,7 @@ const header = () => {
 													<Button
 														variant="ghost"
 														className={`link font-medium ${
-															pathname === "/new-40-foot"
+															pathname === "/used-40-foot"
 																? "text-orange-600 font-semibold"
 																: ""
 														}`}
@@ -143,7 +143,7 @@ const header = () => {
 													<Button
 														variant="ghost"
 														className={`link font-medium ${
-															pathname === "/new-40-foot"
+															pathname === "/new-45-foot"
 																? "text-orange-600 font-semibold"
 																: ""
 														}`}
@@ -159,7 +159,7 @@ const header = () => {
 													<Button
 														variant="ghost"
 														className={`link font-medium ${
-															pathname === "/new-40-foot"
+															pathname === "/used-45-foot"
 																? "text-orange-600 font-semibold"
 																: ""
 														}`}

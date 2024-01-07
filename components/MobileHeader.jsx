@@ -158,6 +158,60 @@ const MobileHeader = () => {
 														</SheetClose>
 													</Link>
 												</li>
+												<li>
+													<Link href="/used-40-foot">
+														<SheetClose>
+															<Button
+																variant="ghost"
+																className={`link font-medium text-base ${
+																	pathname === "/used-40-foot"
+																		? "text-orange-600 font-semibold"
+																		: ""
+																}`}
+															>
+																<NavigationMenuLink className="">
+																	Used 40ft Container
+																</NavigationMenuLink>
+															</Button>
+														</SheetClose>
+													</Link>
+												</li>
+												<li>
+													<Link href="/new-45-foot">
+														<SheetClose>
+															<Button
+																variant="ghost"
+																className={`link font-medium text-base ${
+																	pathname === "/new-45-foot"
+																		? "text-orange-600 font-semibold"
+																		: ""
+																}`}
+															>
+																<NavigationMenuLink className="">
+																	New 45ft Container
+																</NavigationMenuLink>
+															</Button>
+														</SheetClose>
+													</Link>
+												</li>
+												<li>
+													<Link href="/used-45-foot">
+														<SheetClose>
+															<Button
+																variant="ghost"
+																className={`link font-medium text-base ${
+																	pathname === "/used-45-foot"
+																		? "text-orange-600 font-semibold"
+																		: ""
+																}`}
+															>
+																<NavigationMenuLink className="">
+																	New 40ft Container
+																</NavigationMenuLink>
+															</Button>
+														</SheetClose>
+													</Link>
+												</li>
 											</ul>
 										</NavigationMenuContent>
 									</NavigationMenuItem>
