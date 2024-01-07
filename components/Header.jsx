@@ -64,16 +64,6 @@ const header = () => {
 						</Link>
 					</li>
 					<li>
-						{/* <Link href="/containers">
-							<Button
-								variant="ghost"
-								className={`link font-semibold ${
-									pathname === "/containers" ? "text-orange-600" : ""
-								}`}
-							>
-								Our Containers
-							</Button>
-						</Link> */}
 						<NavigationMenu>
 							<NavigationMenuList>
 								<NavigationMenuItem>
@@ -128,6 +118,54 @@ const header = () => {
 													>
 														<NavigationMenuLink className="">
 															New 40ft Container
+														</NavigationMenuLink>
+													</Button>
+												</Link>
+											</li>
+											<li>
+												<Link href="/used-40-foot">
+													<Button
+														variant="ghost"
+														className={`link font-medium ${
+															pathname === "/new-40-foot"
+																? "text-orange-600 font-semibold"
+																: ""
+														}`}
+													>
+														<NavigationMenuLink className="">
+															Used 40ft Container
+														</NavigationMenuLink>
+													</Button>
+												</Link>
+											</li>
+											<li>
+												<Link href="/new-45-foot">
+													<Button
+														variant="ghost"
+														className={`link font-medium ${
+															pathname === "/new-40-foot"
+																? "text-orange-600 font-semibold"
+																: ""
+														}`}
+													>
+														<NavigationMenuLink className="">
+															New 45ft Container
+														</NavigationMenuLink>
+													</Button>
+												</Link>
+											</li>
+											<li>
+												<Link href="/used-45-foot">
+													<Button
+														variant="ghost"
+														className={`link font-medium ${
+															pathname === "/new-40-foot"
+																? "text-orange-600 font-semibold"
+																: ""
+														}`}
+													>
+														<NavigationMenuLink className="">
+															Used 45ft Container
 														</NavigationMenuLink>
 													</Button>
 												</Link>
