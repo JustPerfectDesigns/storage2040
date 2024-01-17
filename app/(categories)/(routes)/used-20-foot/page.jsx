@@ -15,6 +15,7 @@ import g8 from "../../../../public/images/g8.png";
 import ContainerDetails from "@/components/ContainerDetails";
 
 import bg from "../../../../public/images/bg4.png";
+import BuyContainer from "@/components/BuyContainer";
 
 const Used20Foot = () => {
 	const titleStyle = "text-center md:ml-auto md:mr-auto";
@@ -77,6 +78,7 @@ const Used20Foot = () => {
 						incidunt quisquam cupiditate, ex ipsam illo quibusdam id debitis
 						facere?"
 			/>
+			<BuyContainer />
 			<Gallery
 				title="What Has been and can be done with 20 foot containers"
 				titleStyle={titleStyle}

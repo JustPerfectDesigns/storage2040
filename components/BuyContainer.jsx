@@ -4,10 +4,13 @@ import Link from "next/link";
 
 import sale1 from "../public/images/sale1.png";
 import sale2 from "../public/images/sale2.png";
-import sale3 from "../public/images/sale3.jpeg";
-import sale4 from "../public/images/sale4.jpg";
-import sale5 from "../public/images/sale5.jpg";
+import sale3 from "../public/images/sale3.png";
+import sale4 from "../public/images/sale4.png";
+import sale5 from "../public/images/sale5.png";
 import sale6 from "../public/images/sale6.jpg";
+import sale7 from "../public/images/sale7.png";
+import sale8 from "../public/images/sale8.png";
+import sale9 from "../public/images/sale9.jpeg";
 
 import { Button } from "./ui/button";
 import { Star } from "lucide-react";
@@ -16,7 +19,7 @@ const BuyContainer = () => {
 	let data = [
 		{
 			id: 1,
-			imgSrc: sale1,
+			imgSrc: sale4,
 			title: "25ft Used Double Door Container",
 			link: "/new-20-foot",
 		},
@@ -34,20 +37,38 @@ const BuyContainer = () => {
 		},
 		{
 			id: 4,
-			imgSrc: sale4,
+			imgSrc: sale1,
 			title: "40ft Used Standard Shipping Container",
 			link: "/used-40-foot",
 		},
 		{
 			id: 5,
-			imgSrc: sale5,
+			imgSrc: sale9,
 			title: "25ft Brand New Double Door Container",
 			link: "/new-45-foot",
 		},
 		{
 			id: 6,
 			imgSrc: sale6,
-			title: "45’ Front Door Shipping Container",
+			title: "45ft Front Door Shipping Container",
+			link: "/used-45-foot",
+		},
+		{
+			id: 7,
+			imgSrc: sale5,
+			title: "25ft Brand New Shipping Container",
+			link: "/used-45-foot",
+		},
+		{
+			id: 8,
+			imgSrc: sale8,
+			title: "20ft Front Door Shipping Container",
+			link: "/used-45-foot",
+		},
+		{
+			id: 9,
+			imgSrc: sale7,
+			title: "45’ Double Door Shipping Container",
 			link: "/used-45-foot",
 		},
 	];
@@ -57,7 +78,7 @@ const BuyContainer = () => {
 			<div className="mt-12 py-12 md:py-16 lg:py-32 md:container">
 				<div className="ml-5 mr-5">
 					<h2 className="font-bold text-2xl md:text-[26px] lg:text-4xl md:max-w-96 lg:max-w-[500px] text-[#14213F] capitalize text-center mx-auto">
-						Shop Our Latest Used & New Containers
+						We&apos;ve Got The Best Quality, Shop Our Latest Containers
 					</h2>
 
 					<div className="mt-8 flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-8">

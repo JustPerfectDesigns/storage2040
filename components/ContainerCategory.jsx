@@ -4,9 +4,9 @@ import Link from "next/link";
 
 import sale1 from "../public/images/sale1.png";
 import sale2 from "../public/images/sale2.png";
-import sale3 from "../public/images/sale3.jpeg";
-import sale4 from "../public/images/sale4.jpg";
-import sale5 from "../public/images/sale5.jpg";
+import sale3 from "../public/images/sale3.png";
+import sale4 from "../public/images/sale4.png";
+import sale5 from "../public/images/sale5.png";
 import sale6 from "../public/images/sale6.jpg";
 
 import { Button } from "./ui/button";
@@ -16,7 +16,7 @@ const ContainerCategory = () => {
 	let data = [
 		{
 			id: 1,
-			imgSrc: sale1,
+			imgSrc: sale5,
 			title: "25ft Used Double Door Container",
 			link: "/new-20-foot",
 		},
@@ -40,7 +40,7 @@ const ContainerCategory = () => {
 		},
 		{
 			id: 5,
-			imgSrc: sale5,
+			imgSrc: sale1,
 			title: "25ft Brand New Double Door Container",
 			link: "/new-45-foot",
 		},
