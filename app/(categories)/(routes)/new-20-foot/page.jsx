@@ -15,6 +15,7 @@ import g8 from "../../../../public/images/g8.png";
 import ContainerDetails from "@/components/ContainerDetails";
 
 import bg from "../../../../public/images/g4.png";
+import BuyContainer from "@/components/BuyContainer";
 
 const New20Foot = () => {
 	const titleStyle = "text-center md:ml-auto md:mr-auto";
@@ -66,7 +67,7 @@ const New20Foot = () => {
 						containers. 20ft containers are suitable for shipping, storage,
 						modular construction, retail spaces, housing, offices, restaurants
 						and cafes, workshops, art installations, and event spaces worldwide.
-						
+
 						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
 						molestias esse veniam? Nostrum facilis iure facere adipisci
 						blanditiis doloremque vel libero, aut perspiciatis error esse quia
@@ -77,6 +78,7 @@ const New20Foot = () => {
 						incidunt quisquam cupiditate, ex ipsam illo quibusdam id debitis
 						facere?"
 			/>
+			<BuyContainer />
 			<Gallery
 				title="What Has been and can be done with 20 foot containers"
 				titleStyle={titleStyle}

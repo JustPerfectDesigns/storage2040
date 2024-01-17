@@ -21,6 +21,16 @@ import {
 	navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
+import { ShoppingCart, X } from "lucide-react";
+
+import {
+	Sheet,
+	SheetContent,
+	SheetClose,
+	SheetHeader,
+	SheetTrigger,
+} from "@/components/ui/sheet";
+
 const header = () => {
 	const pathname = usePathname;
 
@@ -189,6 +199,23 @@ const header = () => {
 						</Link>
 					</li>
 				</ul>
+			</div>
+			<div className="bg-slate-100 flex justify-center items-center hover:bg-orange-600 hover:text-white rounded">
+				<Sheet>
+					<SheetTrigger>
+						<div className="flex justify-center items-center h-16 w-16 hover:bg-orange-600 hover:text-white rounded">
+							<ShoppingCart className="hover:text-white" />
+						</div>
+					</SheetTrigger>
+					<SheetContent>
+						<SheetClose>
+							<X size={28} className="absolute right-5 top-8" />
+						</SheetClose>
+						<p className="text-2xl font-semibold px-5 mt-14">
+							No Containers in your cart yet!
+						</p>
+					</SheetContent>
+				</Sheet>
 			</div>
 		</div>
 	);

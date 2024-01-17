@@ -17,6 +17,7 @@
     "embla-carousel-react": "^8.0.0-rc18",
     "lucide-react": "^0.303.0",
     "next": "^14.0.4",
+    "next-videos": "^1.4.1",
     "react": "^18",
     "react-dom": "^18",
     "react-masonry-css": "^1.0.16",

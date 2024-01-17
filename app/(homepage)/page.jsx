@@ -15,6 +15,7 @@ import g5 from "../../public/images/g5.png";
 import g6 from "../../public/images/g6.png";
 import g7 from "../../public/images/g7.png";
 import g8 from "../../public/images/g8.png";
+import Homevideo from "@/components/Homevideo";
 
 const HomePage = () => {
 	const style = " mt-20 lg:mt-32";
@@ -58,11 +59,12 @@ const HomePage = () => {
 		<div className="w-full mt-11 lg:mt-16">
 			<HeroSection />
 			<HeroImage />
-			<WhyUs />
+			{/* <WhyUs /> */}
 			<ContainerCategory />
+			<Homevideo />
 			<Gallery
 				title="What’s been done with our containers"
-				bgColor="bg-slate-50"
+				bgColor=""
 				data={galleryData}
 			/>
 			<Testimonials style={style} />
