@@ -38,7 +38,7 @@ export default function ImageGallery({ images }) {
 				{images.map((image, idx) => (
 					<div
 						key={idx}
-						className={`overflow-hidden rounded-lg bg-gray-100 lg:h-[full] ${
+						className={`overflow-hidden rounded-lg bg-gray-100 lg:h-[full] h-[40px] w-[50px] ${
 							activeImage === idx ? "border-[3px] border-orange-600" : ""
 						}`}
 					>
@@ -54,7 +54,7 @@ export default function ImageGallery({ images }) {
 				))}
 			</div>
 
-			<div className="relative overflow-hidden rounded-lg bg-gray-100 lg:col-span-5 lg:h-[500px] lg:w-full">
+			<div className="relative overflow-hidden rounded-lg bg-gray-100 h-[235px] lg:col-span-5 lg:h-[500px] lg:w-full">
 				<Image
 					src={urlFor(bigImage).url()}
 					alt="Photo"
