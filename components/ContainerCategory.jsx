@@ -84,7 +84,7 @@ const ContainerCategory = async () => {
 												height={100}
 												src={item.imageUrl}
 												alt="container"
-												className="w-full"
+												className="w-full h-full object-cover object-center"
 												// loading="lazy"
 												priority
 												unoptimized

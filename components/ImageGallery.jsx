@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { urlFor } from "../app/lib/sanity";
 import { useState } from "react";
+import { Button } from "./ui/button";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function ImageGallery({ images }) {
 	const [bigImage, setBigImage] = useState(images[0]);
@@ -11,6 +13,18 @@ export default function ImageGallery({ images }) {
 	const handleSmallImageClick = (image, idx) => {
 		setBigImage(image);
 		setActiveImage(idx);
+	};
+
+	const handleNextClick = () => {
+		const nextIndex = (activeImage + 1) % images.length;
+		setBigImage(images[nextIndex]);
+		setActiveImage(nextIndex);
+	};
+
+	const handlePrevClick = () => {
+		const prevIndex = (activeImage - 1 + images.length) % images.length;
+		setBigImage(images[prevIndex]);
+		setActiveImage(prevIndex);
 	};
 
 	return (
@@ -62,6 +76,24 @@ export default function ImageGallery({ images }) {
 					height={500}
 					className="h-full w-full object-cover object-center"
 				/>
+				<div className="absolute top-0 bottom-0 left-0 w-1/2 flex justify-start items-center cursor-pointer">
+					<Button
+						size="sm"
+						onClick={handlePrevClick}
+						className="bg-gray-800/80 hover:bg-gray-800 transition-all"
+					>
+						<ChevronLeft />
+					</Button>
+				</div>
+				<div className="absolute top-0 bottom-0 right-0 w-1/2 flex justify-end items-center cursor-pointer">
+					<Button
+						size="sm"
+						onClick={handleNextClick}
+						className="bg-gray-800/80 hover:bg-gray-800 transition-all"
+					>
+						<ChevronRight />
+					</Button>
+				</div>
 			</div>
 		</div>
 	);

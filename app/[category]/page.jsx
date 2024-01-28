@@ -110,7 +110,7 @@ export default async function CategoryPage({ params }) {
 													height={100}
 													src={item.imageUrl}
 													alt="container"
-													className="w-full"
+													className="w-full h-full object-cover object-center"
 													// loading="lazy"
 													priority
 													unoptimized
@@ -183,7 +183,7 @@ export default async function CategoryPage({ params }) {
 				</div>
 			</div>
 			<Gallery
-				title="What Has been and can be done with 20 foot containers"
+				title={`What Has been and can be done with ${data[0]?.category.name}`}
 				titleStyle={titleStyle}
 				data={galleryData}
 			/>

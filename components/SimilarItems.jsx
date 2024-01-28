@@ -53,7 +53,7 @@ export default async function SimilarItems({ category }) {
 													height={100}
 													src={item.imageUrl}
 													alt="container"
-													className="w-full object-cover object-center"
+													className="w-full h-full object-cover object-center"
 													// loading="lazy"
 													priority
 													unoptimized
