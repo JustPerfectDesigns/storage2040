@@ -35,9 +35,9 @@ export default async function SimilarItems({ category }) {
 
 	return (
 		<div>
-			<div className="" id="containers">
-				<div className="mt-12 py-12 md:py-16 lg:py-32 md:container">
-					<div className="ml-5 mr-5">
+			<div>
+				<div className="mt-28 ">
+					<div className="">
 						<h2 className="font-bold text-2xl md:text-[26px] lg:text-4xl md:max-w-96 lg:max-w-[500px] text-[#14213F] capitalize text-center mx-auto">
 							Shop Similar Products
 						</h2>
@@ -53,7 +53,7 @@ export default async function SimilarItems({ category }) {
 													height={100}
 													src={item.imageUrl}
 													alt="container"
-													className="w-full"
+													className="w-full object-cover object-center"
 													// loading="lazy"
 													priority
 													unoptimized
