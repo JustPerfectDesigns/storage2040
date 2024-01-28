@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../components/Header";
 import HeroSection from "../../components/HeroSection";
 import HeroImage from "../../components/HeroImage";
 import WhyUs from "../../components/WhyUs";
@@ -15,7 +14,9 @@ import g5 from "../../public/images/g5.png";
 import g6 from "../../public/images/g6.png";
 import g7 from "../../public/images/g7.png";
 import g8 from "../../public/images/g8.png";
-import Homevideo from "@/components/Homevideo";
+import HomeImage from "@/components/HomeImage";
+
+export const dynamic = "force-dynamic";
 
 const HomePage = () => {
 	const style = " mt-20 lg:mt-32";
@@ -61,7 +62,7 @@ const HomePage = () => {
 			<HeroImage />
 			{/* <WhyUs /> */}
 			<ContainerCategory />
-			<Homevideo />
+			<HomeImage />
 			<Gallery
 				title="What’s been done with our containers"
 				bgColor=""

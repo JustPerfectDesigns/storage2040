@@ -30,6 +30,7 @@ import {
 	SheetHeader,
 	SheetTrigger,
 } from "@/components/ui/sheet";
+import ShoppingCartModal from "./ShoppingCartModal";
 
 const header = () => {
 	const pathname = usePathname;
@@ -216,6 +217,7 @@ const header = () => {
 						</p>
 					</SheetContent>
 				</Sheet>
+				{/* <ShoppingCartModal /> */}
 			</div>
 		</div>
 	);
