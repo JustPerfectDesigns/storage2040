@@ -4,7 +4,7 @@ import React from "react";
 const CategoryHero = ({ image, title }) => {
 	return (
 		<div>
-			<div className="relative h-[70vh]">
+			<div className="relative h-[350px] md:h-[500px] w-full">
 				<Image
 					src={image}
 					alt="Category Image"

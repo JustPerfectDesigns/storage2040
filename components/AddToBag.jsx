@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { useShoppingCart } from "use-shopping-cart";
 import { urlFor } from "../app/lib/sanity";
+import { ShoppingBag } from "lucide-react";
 
 export default function AddToBag({
 	currency,
@@ -21,16 +22,16 @@ export default function AddToBag({
 		currency: currency,
 		image: urlFor(image).url(),
 		price_id: price_id,
-		// id: "dhdjsa",
 	};
 	return (
 		<Button
+			size="lg"
 			onClick={() => {
 				addItem(product), handleCartClick();
 			}}
-			className="py-[10px] px-5 rounded-full text-sm flex justify-center items-center border w-full"
+			className="py-[10px] rounded-full text-sm flex justify-center items-center border w-full gap-1 flex-1"
 		>
-			Add To Cart
+			<ShoppingBag size={18} /> Add To Cart
 		</Button>
 	);
 }

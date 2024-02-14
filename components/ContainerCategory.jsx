@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Button } from "./ui/button";
-import { Star } from "lucide-react";
+import { Eye, Star } from "lucide-react";
 import { client } from "@/app/lib/sanity";
 import AddToBag from "./AddToBag";
 import CheckoutNow from "./CheckoutNow";
@@ -143,16 +143,15 @@ const ContainerCategory = async () => {
 												key={item._id}
 												price_id={item.price_id}
 											/>
-											{/* <Button>Add to Cart</Button> */}
-											<CheckoutNow
-												currency="USD"
-												description={item.description} // Use item.description
-												image={item.imageUrl} // Use item.imageUrl
-												name={item.name}
-												price={item.price}
-												key={item._id}
-												price_id={item.price_id}
-											/>
+											<Link href={`/product/${item.slug}`}>
+												<Button
+													// href={item.link}
+													size="lg"
+													className="bg-orange-600 py-[10px] rounded-full text-sm text-white flex justify-center items-center w-full gap-1 flex-1"
+												>
+													<Eye size={19} /> Quick View
+												</Button>
+											</Link>
 										</div>
 									</div>
 								</div>

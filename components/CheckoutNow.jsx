@@ -29,6 +29,7 @@ export default function CheckoutNow({
 	};
 	return (
 		<Button
+			size="lg"
 			variant="outline"
 			onClick={() => {
 				buyNow(product.price_id);

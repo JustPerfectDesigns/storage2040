@@ -2,8 +2,8 @@ import React from "react";
 
 const HeroSection = () => {
 	return (
-		<section className="ml-5 mr-5 md:container md:ml-6 md:mr-6 lg:flex lg:flex-col lg:justify-center lg:items-center">
-			<h1 className="text-4xl md:text-5xl lg:text-7xl text-center text-[#14213F] font-bold lg:max-w-4xl">
+		<section className="ml-5 mr-5 md:container md:ml-6 md:mr-6 lg:flex lg:flex-col lg:justify-center lg:items-center  lg:mx-auto">
+			<h1 className="text-4xl md:text-5xl lg:text-7xl text-center text-[#14213F] font-bold lg:max-w-4xl lg:mx-auto">
 				Your <span className="text-orange-600">Premier</span> Source for
 				High-Quality <span className="text-orange-600">Shipping</span>{" "}
 				Containers

@@ -73,8 +73,8 @@ const Testimonials = ({ style }) => {
 							);
 						})}
 					</CarouselContent>
-					<CarouselPrevious className="bg-orange-600 h-11 w-11 text-white rounded-xl" />
-					<CarouselNext className="bg-orange-600 h-11 w-11 text-white rounded-xl" />
+					<CarouselPrevious className="bg-orange-600 h-11 w-11 text-white rounded-xl absolute left-[38%] bottom-[-5rem] md:left-[44%] lg:left-[45%]" />
+					<CarouselNext className="bg-orange-600 h-11 w-11 text-white rounded-xl absolute left-[52%] bottom-[-5rem] md:left-[51%] lg:left-[50%]" />
 				</Carousel>
 
 				{/* <div className="flex justify-center items-center gap-[10px] mt-8">
