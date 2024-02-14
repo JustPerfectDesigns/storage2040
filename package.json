@@ -25,6 +25,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-masonry-css": "^1.0.16",
+    "react-toastify": "^10.0.4",
     "stripe": "^14.13.0",
     "swiper-react": "^1.0.0",
     "tailwind-merge": "^2.2.0",

@@ -6,6 +6,7 @@ import MobileHeader from "@/components/MobileHeader";
 import CartProvider from "@/components/Providers";
 import Navbar from "@/components/Navbar";
 import ShoppingCartModal from "@/components/ShoppingCartModal";
+import { Bounce, ToastContainer } from "react-toastify";
 
 export const metadata = {
 	title: "Storage2040",
@@ -29,6 +30,18 @@ export default function RootLayout({ children }) {
 					<div className="bg-[#14213F] py-28 md:mt-60 text-white text-center">
 						Main Footer
 					</div>
+					<ToastContainer
+						position="bottom-center"
+						autoClose={5000}
+						hideProgressBar={false}
+						newestOnTop={false}
+						closeOnClick
+						rtl={false}
+						pauseOnFocusLoss
+						draggable
+						pauseOnHover
+						theme="dark"
+					/>
 				</CartProvider>
 			</body>
 		</html>

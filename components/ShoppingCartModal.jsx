@@ -14,6 +14,9 @@ import { Trash2Icon, X } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 export default function ShoppingCartModal() {
 	const [isSendingEmail, setIsSendingEmail] = useState(false);
 	const [email, setEmail] = useState("");
@@ -50,6 +53,24 @@ export default function ShoppingCartModal() {
 
 			if (!response.ok) {
 				throw new Error("Failed to send email notification to admin");
+			}
+
+			if (response.ok) {
+				toast.success(
+					"Checkout Successful! You'll receive an invoice in your email shortly",
+					{
+						position: "bottom-center",
+						autoClose: 7000,
+						hideProgressBar: false,
+						closeOnClick: true,
+						pauseOnHover: true,
+						draggable: true,
+						progress: undefined,
+						theme: "dark",
+						// transition: Bounce,
+					}
+				);
+				handleCartClick();
 			}
 
 			console.log("Email notification sent to admin");
