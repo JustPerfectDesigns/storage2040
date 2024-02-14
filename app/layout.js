@@ -10,7 +10,7 @@ import { Bounce, ToastContainer } from "react-toastify";
 
 export const metadata = {
 	title: "Storage2040",
-	description: "Reliability at its peak",
+	description: "Home of Quality Shipping Containers | Reliability at its peak",
 };
 
 export default function RootLayout({ children }) {

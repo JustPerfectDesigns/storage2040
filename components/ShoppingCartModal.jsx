@@ -60,7 +60,7 @@ export default function ShoppingCartModal() {
 					"Checkout Successful! You'll receive an invoice in your email shortly",
 					{
 						position: "bottom-center",
-						autoClose: 7000,
+						autoClose: 9000,
 						hideProgressBar: false,
 						closeOnClick: true,
 						pauseOnHover: true,
