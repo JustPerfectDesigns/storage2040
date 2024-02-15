@@ -15,21 +15,27 @@ const Testimonials = ({ style }) => {
 	const data = [
 		{
 			quote:
-				"We were looking to build a storage facility from 20 x 20 ft containers and were having a hard time finding a supplier that had a good selection of containers with a reasonable discount for a bulk order. Luckily, we got in touch with Viva Containers, which offered us a much better price and managed to deliver all containers within 3 days. So happy.",
-			name: "Jerry Lewis",
-			date: "May 16",
+				"I can't thank Storage2040 enough for the seamless process of purchasing a shipping container. From selection to delivery, everything was smooth. I bought mine on November 20th and it's still in perfect condition. It withstands harsh weather even thought it is not new.",
+			name: "David Brown",
+			date: "November 20",
 		},
 		{
 			quote:
-				"We were looking to build a storage facility from 20 x 20 ft containers and were having a hard time finding a supplier that had a good selection of containers with a reasonable discount for a bulk order. Luckily, we got in touch with Viva Containers, which offered us a much better price and managed to deliver all containers within 3 days. So happy.",
-			name: "Vicky Jones",
-			date: "June 3",
+				"Storage2040 exceeded my expectations with their quality used shipping containers. The container I purchased on March 10th has been a game-changer for my storage needs. Highly recommend their services.",
+			name: "Emily Johnson",
+			date: "March 10",
 		},
 		{
 			quote:
-				"We were looking to build a storage facility from 20 x 20 ft containers and were having a hard time finding a supplier that had a good selection of containers with a reasonable discount for a bulk order. Luckily, we got in touch with Viva Containers, which offered us a much better price and managed to deliver all containers within 3 days. So happy.",
-			name: "Jerry Lewis",
-			date: "April 22",
+				"Absolutely thrilled with my experience buying from Storage2040. The container I bought on August 5th was in fantastic condition, and the delivery was prompt.",
+			name: "Daniel Smith",
+			date: "August 5",
+		},
+		{
+			quote:
+				"Outstanding service and excellent product quality! I purchased a container from Storage2040 on February 12th, and it has served its purpose perfectly. I'd recommend these guys over and over again. Beautiful service.",
+			name: "Jessica Williams",
+			date: "February 12",
 		},
 	];
 	return (
