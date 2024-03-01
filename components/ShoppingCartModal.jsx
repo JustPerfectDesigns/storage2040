@@ -73,7 +73,7 @@ export default function ShoppingCartModal() {
 				handleCartClick();
 			}
 
-			console.log("Email notification sent to admin");
+			// console.log("Email notification sent to admin");
 
 			// Handle success, e.g., show thank you message, redirect to success page, etc.
 		} catch (error) {
