@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import { Mail, PhoneCall } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const ContactUsPage = () => {
@@ -12,6 +14,27 @@ const ContactUsPage = () => {
 					It is very important for us to keep in touch with you, so we are
 					always ready to answer any question that interests you. Shoot!
 				</p>
+				<div className="mt-12 flex items-center gap-4 flex-wrap">
+					<Button variant="outline" size="lg">
+						<Link
+							href="tel:+12173405613"
+							className="flex items-center gap-1 font-semibold text-gray-500"
+						>
+							<PhoneCall size={20} className="text-orange-600" />
+							+12173405613
+						</Link>
+					</Button>
+					<div className="hidden md:block h-[30px] w-[1px] bg-gray-200"></div>
+					<Button variant="outline" size="lg">
+						<Link
+							href="mailto:sales@storage2040.com"
+							className="flex items-center gap-1 font-semibold text-gray-500"
+						>
+							<Mail size={20} className="text-orange-600" />
+							sales@storage2040.com
+						</Link>
+					</Button>
+				</div>
 			</div>
 			<div className="w-full">
 				<form action="" className="grid gap-6">
