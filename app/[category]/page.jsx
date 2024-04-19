@@ -120,7 +120,7 @@ export default async function CategoryPage({ params }) {
 										<div className="flex flex-col gap-4">
 											<div className="pt-5 bg-white flex justify-between items-center">
 												<Link href={`/product/${item.slug}`}>
-													<h4 className="flex-1 text-[#14213F] font-bold text-lg lg:text-xl">
+													<h4 className="flex-1 text-[#14213F] font-bold text-lg lg:text-xl capitalize">
 														{item.name}
 													</h4>
 												</Link>

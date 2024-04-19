@@ -15,25 +15,25 @@ const ContactUsPage = () => {
 					always ready to answer any question that interests you. Shoot!
 				</p>
 				<div className="mt-12 flex items-center gap-4 flex-wrap">
-					<Button variant="outline" size="lg">
-						<Link
-							href="tel:+12173405613"
-							className="flex items-center gap-1 font-semibold text-gray-500"
-						>
+					<Link
+						href="tel:+12173405613"
+						className="flex items-center gap-1 font-semibold text-gray-500"
+					>
+						<Button variant="outline" size="lg">
 							<PhoneCall size={20} className="text-orange-600" />
 							+12173405613
-						</Link>
-					</Button>
+						</Button>
+					</Link>
 					<div className="hidden md:block h-[30px] w-[1px] bg-gray-200"></div>
-					<Button variant="outline" size="lg">
-						<Link
-							href="mailto:sales@storage2040.com"
-							className="flex items-center gap-1 font-semibold text-gray-500"
-						>
+					<Link
+						href="mailto:sales@storage2040.com"
+						className="flex items-center gap-1 font-semibold text-gray-500"
+					>
+						<Button variant="outline" size="lg">
 							<Mail size={20} className="text-orange-600" />
 							sales@storage2040.com
-						</Link>
-					</Button>
+						</Button>
+					</Link>
 				</div>
 			</div>
 			<div className="w-full">

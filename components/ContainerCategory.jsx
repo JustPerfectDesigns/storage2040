@@ -26,44 +26,6 @@ async function getData() {
 
 const ContainerCategory = async () => {
 	const data = await getData();
-	// let data = [
-	// 	{
-	// 		id: 1,
-	// 		imgSrc: sale5,
-	// 		title: "25ft Used Double Door Container",
-	// 		link: "/new-20-foot",
-	// 	},
-	// 	{
-	// 		id: 2,
-	// 		imgSrc: sale2,
-	// 		title: "20ft New Front & Side Door Container",
-	// 		link: "/used-20-foot",
-	// 	},
-	// 	{
-	// 		id: 3,
-	// 		imgSrc: sale3,
-	// 		title: "40ft New Standard Shipping Container",
-	// 		link: "/new-40-foot",
-	// 	},
-	// 	{
-	// 		id: 4,
-	// 		imgSrc: sale4,
-	// 		title: "40ft Used Standard Shipping Container",
-	// 		link: "/used-40-foot",
-	// 	},
-	// 	{
-	// 		id: 5,
-	// 		imgSrc: sale1,
-	// 		title: "25ft Brand New Double Door Container",
-	// 		link: "/new-45-foot",
-	// 	},
-	// 	{
-	// 		id: 6,
-	// 		imgSrc: sale6,
-	// 		title: "45’ Front Door Shipping Container",
-	// 		link: "/used-45-foot",
-	// 	},
-	// ];
 
 	return (
 		<div className="" id="containers">
