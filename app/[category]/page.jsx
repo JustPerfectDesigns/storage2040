@@ -127,12 +127,12 @@ export default async function CategoryPage({ params }) {
 											</div>
 
 											<div className="flex justify-between items-center">
-												<span className="flex items-center gap-2 text-sm">
+												{/* <span className="flex items-center gap-2 text-sm">
 													<Star size={18} />{" "}
 													<span className="font-medium text-[#8e8d8d]">
 														5.0 (1.2k Reviews)
 													</span>
-												</span>
+												</span> */}
 												<h3 className="text-[22px] lg:text-2xl font-semibold">
 													${item.price}
 												</h3>
